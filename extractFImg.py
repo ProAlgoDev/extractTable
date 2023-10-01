@@ -39,12 +39,6 @@ def mainF():
         extracted_text = pytesseract.image_to_string(text_region)
         data.append(extracted_text)
         text += extracted_text
-        # random_number = random.randint(56, 200)
-        # random_number1 = random.randint(60, 100)
-        # random_number2 = random.randint(100, 230)
-        # cv2.rectangle(imgCpy, (x, y), (x + w, y + h), (random_number, random_number1, random_number2),3)
-
-
     # cv2.imshow('Image with Detected Rectangles', imgCpy)
     # cv2.waitKey(0)
     # cv2.destroyAllWindows()
